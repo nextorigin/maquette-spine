@@ -1,0 +1,34 @@
+{
+  "name": "maquette-spine",
+  "version": "1.0.0",
+  "description": "Widget base classes for Spine Controllers+Models rendered through Maquette views",
+  "main": "maquette-spine.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "iced --bare --map --runtime node -o ./ -c src/",
+    "watch": "iced --watch --bare --map --runtime node -o ./ -c src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/nextorigin/maquette-spine"
+  },
+  "keywords": [
+    "maquette",
+    "spine",
+    "spinejs",
+    "hyperscript",
+    "reactive",
+    "widget",
+    "list",
+    "coffeescript",
+    "frontend",
+    "clientside"
+  ],
+  "author": "doublerebel",
+  "license": "MIT",
+  "dependencies": {
+    "maquette": "^2.4.1",
+    "maquette-mapper": "^1.0.0",
+    "spine": "^1.6.2"
+  }
+}
